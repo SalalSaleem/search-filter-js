@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search for a product..." id="search-input" value="" oninput="searchFilter(event)">
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-list">
+            <!-- Product Cards -->
+            <div class="product-card">
+                <img src="https://images.samsung.com/is/image/samsung/p6pim/pk/2202/gallery/pk-galaxy-s22-ultra-s908-413093-413093-sm-s908ezwgpkd-531032963?$650_519_PNG$" alt="Samsung S22">
+                <div class="product-details">
+                    <h3 class="mobileName">Samsung Galaxy S22</h3>
+                    <p class="price">$799.99</p>
+                    <p class="description">The Samsung Galaxy S22 features a stunning 6.1-inch Dynamic AMOLED 2X display and a 50MP triple camera system.</p>
+                    <div class="tags">
+                        <span class="brand">Samsung</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://regen.pk/cdn/shop/products/Regen-iPhone-13-Pro-Max-graphite_df6678d7-e7c4-4be5-9a67-dc5b73b9221d.jpg?v=1682413511" alt="iPhone 13">
+                <div class="product-details">
+                    <h3>Apple iPhone 13</h3>
+                    <p class="price">$799.99</p>
+                    <p class="description">Experience the iPhone 13 with its A15 Bionic chip and advanced dual-camera system.</p>
+                    <div class="tags">
+                        <span class="brand">Apple</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://www.techspecs.info/_next/image/?url=https%3A%2F%2Fwww.techspecs.info%2Fuploads%2FGoogle_Pixel_6_df473f3b95.jpg&w=3840&q=75" alt="Google Pixel 6">
+                <div class="product-details">
+                    <h3>Google Pixel 6</h3>
+                    <p class="price">$599.99</p>
+                    <p class="description">The Pixel 6 is equipped with Google Tensor and a 50MP main camera for amazing photos.</p>
+                    <div class="tags">
+                        <span class="brand">Google</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://priceinto.com.pk/wp-content/uploads/2024/09/OnePlus-9-Price-in-Pakistan-600x600.jpg" alt="OnePlus 9">
+                <div class="product-details">
+                    <h3>OnePlus 9</h3>
+                    <p class="price">$729.99</p>
+                    <p class="description">OnePlus 9 offers smooth performance with its Snapdragon 888 processor and a Hasselblad camera system.</p>
+                    <div class="tags">
+                        <span class="brand">OnePlus</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://spec.pk/wp-content/uploads/2022/09/xiaomi-mi-11-pakistan-priceoye-vkzh7.jpg" alt="Xiaomi Mi 11">
+                <div class="product-details">
+                    <h3>Xiaomi Mi 11</h3>
+                    <p class="price">$749.99</p>
+                    <p class="description">Xiaomi Mi 11 features a 6.81-inch AMOLED display, Snapdragon 888, and a 108MP camera.</p>
+                    <div class="tags">
+                        <span class="brand">Xiaomi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://www.winstore.pk/cdn/shop/products/QjLFaeJKbs.jpg?v=1640450153" alt="Oppo Reno 6">
+                <div class="product-details">
+                    <h3>Oppo Reno 6</h3>
+                    <p class="price">$499.99</p>
+                    <p class="description">Oppo Reno 6 comes with a 6.43-inch AMOLED screen and a 64MP quad-camera setup.</p>
+                    <div class="tags">
+                        <span class="brand">Oppo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Sony_Xperia_1_II_Mirror_Lake_Green_3_640x640.jpg" alt="Sony Xperia 1 II">
+                <div class="product-details">
+                    <h3>Sony Xperia 1 II</h3>
+                    <p class="price">$1,199.99</p>
+                    <p class="description">The Xperia 1 II boasts a 6.5-inch 4K OLED display and a triple-camera setup developed in collaboration with Sony’s camera engineers.</p>
+                    <div class="tags">
+                        <span class="brand">Sony</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWqh2a7h3-voQjtp6agvKftuDhf1qrGfonwA&s" alt="Asus Zenfone 8">
+                <div class="product-details">
+                    <h3>Asus Zenfone 8</h3>
+                    <p class="price">$699.99</p>
+                    <p class="description">Zenfone 8 offers a compact design with a powerful Snapdragon 888 chipset and a 64MP camera.</p>
+                    <div class="tags">
+                        <span class="brand">Asus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
