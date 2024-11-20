@@ -18,7 +18,7 @@ function displayProducts(productList) {
     productList.forEach((product) => {
         const productCard = document.createElement("div");
         productCard.classList.add("product-card");
-
+        var pro = product;
         productCard.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
             <div class="product-details">
@@ -38,4 +38,8 @@ function displayProducts(productList) {
 // Display all products on page load
 displayProducts(products);
 
+
+const filter_phone = product.filter(function(prod) {
+return prod.name == "iPhone 13"; });
+console.log(filter_phone);
 
